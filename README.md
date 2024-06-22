@@ -9,21 +9,21 @@ Before you begin, ensure you have met the following requirements:
 
 ### Installation
 1. Clone the repo
-   ```sh
-   git clone <repository_url>
-   cd next-app
-   ```
+```sh
+git clone <repository_url>
+cd next-app
+ ```
 2. Install NPM packages
-```bash
+```sh
 npm install
 ```
 ### Running the App
 1. Start the development server
-```bash
+```sh
 npm run dev
 ```
 2. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-```bash
+```sh
 http://localhost:3000
 ```
 
