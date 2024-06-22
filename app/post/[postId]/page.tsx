@@ -6,7 +6,7 @@ export default async function page({ params }: { params: { postId: string } }) {
   const { postId } = params;
   const { body, title }: Post = await getPostById(postId);
   return (
-    <section>
+    <section className="mb-20">
       <div className="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-8 lg:px-8">
         <div className="max-w-3xl">
           <h2 className="text-3xl font-bold sm:text-4xl">{title}</h2>
