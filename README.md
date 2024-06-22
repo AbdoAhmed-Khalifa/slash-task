@@ -1,31 +1,30 @@
-# Next App
-
-## Description
-Next App is a web application built with Next.js, designed to [briefly describe what your app does and its purpose].
-
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Running the App](#running-the-app)
-- [Scripts](#scripts)
-- [Deployment](#deployment)
-- [Built With](#built-with)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 - Node.js installed on your local development machine
 - npm (Node Package Manager) installed
-- [Any specific dependencies or prerequisites needed for your project]
 
 ## Getting Started
-To get a local copy up and running follow these simple steps.
 
 ### Installation
 1. Clone the repo
    ```sh
    git clone <repository_url>
    cd next-app
+   ```
+2. Install NPM packages
+```bash
+npm install
+```
+### Running the App
+1. Start the development server
+```bash
+npm run dev
+```
+2. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+http://localhost:3000
+```
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
