@@ -10,7 +10,7 @@ Before you begin, ensure you have met the following requirements:
 ### Installation
 1. Clone the repo
 ```sh
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/AbdoAhmed-Khalifa/slash-task.git)
 cd next-app
  ```
 2. Install NPM packages
